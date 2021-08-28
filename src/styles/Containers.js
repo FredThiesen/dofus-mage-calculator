@@ -44,7 +44,7 @@ export const RightBar = styled.div`
 	width: 25%;
 	height: 100%;
 `
-export const Display = styled.div`
+export const DisplayContainer = styled.div`
 	display: flex;
 	align-items: center;
 	justify-content: center;

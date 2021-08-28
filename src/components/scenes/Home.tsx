@@ -1,13 +1,13 @@
 import React, { Component } from "react"
 import {
 	Body,
-	Display,
 	Header,
 	LeftBar,
 	MainContainer,
 	RightBar,
 } from "../../styles/Containers"
 import RuneBtn from "../buttons/RuneBtn"
+import Display from "../containers/Display"
 
 export default class Home extends Component {
 	render() {
@@ -21,7 +21,7 @@ export default class Home extends Component {
 					<Header></Header>
 				</MainContainer>
 				<RightBar>
-					<Display>+24</Display>
+					<Display value={24}></Display>
 				</RightBar>
 			</Body>
 		)
