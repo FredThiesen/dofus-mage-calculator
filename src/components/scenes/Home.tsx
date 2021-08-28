@@ -1,5 +1,12 @@
 import React, { Component } from "react"
-import { Body } from "../../styles/Containers"
+import {
+	Body,
+	Display,
+	Header,
+	LeftBar,
+	MainContainer,
+	RightBar,
+} from "../../styles/Containers"
 import RuneBtn from "../buttons/RuneBtn"
 
 export default class Home extends Component {
@@ -9,7 +16,13 @@ export default class Home extends Component {
 		}
 		return (
 			<Body>
-				<RuneBtn label={"teste2"} onClick={() => handleClick()} />
+				<LeftBar>left bar</LeftBar>
+				<MainContainer>
+					<Header></Header>
+				</MainContainer>
+				<RightBar>
+					<Display>+24</Display>
+				</RightBar>
 			</Body>
 		)
 	}

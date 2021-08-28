@@ -1,0 +1,231 @@
+{
+	"runes": {
+		"agi": {
+			"normal": 1,
+			"pa": 3,
+			"ra": 10,
+			"individual": 1
+		},
+		"int": {
+			"normal": 1,
+			"pa": 3,
+			"ra": 10,
+			"individual": 1
+		},
+		"for": {
+			"normal": 1,
+			"pa": 3,
+			"ra": 10,
+			"individual": 1
+		},
+		"sor": {
+			"normal": 1,
+			"pa": 3,
+			"ra": 10,
+			"individual": 1
+		},
+		"vit": {
+			"normal": 1,
+			"pa": 3,
+			"ra": 10,
+			"individual": 0.2
+		},
+		"ini": {
+			"normal": 1,
+			"pa": 3,
+			"ra": 10,
+			"individual": 0.1
+		},
+		"resEmp": {
+			"normal": 2,
+			"pa": 6,
+			"individual": 2
+		},
+		"resCrit": {
+			"normal": 2,
+			"pa": 6,
+			"individual": 2
+		},
+		"resFogo": {
+			"normal": 2,
+			"pa": 2,
+			"individual": 2
+		},
+		"resAgua": {
+			"normal": 2,
+			"pa": 6,
+			"individual": 2
+		},
+		"resTerra": {
+			"normal": 2,
+			"pa": 6,
+			"individual": 2
+		},
+		"resAr": {
+			"normal": 2,
+			"pa": 6,
+			"individual": 2
+		},
+		"resNeutra": {
+			"normal": 2,
+			"pa": 6,
+			"individual": 2
+		},
+		"pot": {
+			"normal": 2,
+			"pa": 6,
+			"ra": 20,
+			"individual": 2
+		},
+		"armPo": {
+			"normal": 2,
+			"pa": 6,
+			"ra": 20,
+			"individual": 2
+		},
+		"pod": {
+			"normal": 2.5,
+			"pa": 7.5,
+			"ra": 25,
+			"individual": 0.25
+		},
+		"sab": {
+			"normal": 3,
+			"pa": 9,
+			"ra": 30,
+			"individual": 3
+		},
+		"prosp": {
+			"normal": 3,
+			"pa": 9,
+			"individual": 3
+		},
+		"blo": {
+			"normal": 4,
+			"pa": 12,
+			"individual": 4
+		},
+		"fuga": {
+			"normal": 4,
+			"pa": 12,
+			"individual": 4
+		},
+		"daFogo": {
+			"normal": 5,
+			"pa": 15,
+			"individual": 5
+		},
+		"daAgua": {
+			"normal": 5,
+			"pa": 15,
+			"individual": 5
+		},
+		"daTerra": {
+			"normal": 5,
+			"pa": 15,
+			"individual": 5
+		},
+		"daAr": {
+			"normal": 5,
+			"pa": 15,
+			"individual": 5
+		},
+		"daNeutro": {
+			"normal": 5,
+			"pa": 15,
+			"individual": 5
+		},
+		"daEmp": {
+			"normal": 5,
+			"pa": 15,
+			"individual": 5
+		},
+		"daCri": {
+			"normal": 5,
+			"pa": 15,
+			"individual": 5
+		},
+		"daArm": {
+			"normal": 5,
+			"pa": 15,
+			"individual": 5
+		},
+		"caça": {
+			"normal": 5,
+			"individual": 5
+		},
+		"resPorFogo": {
+			"normal": 6,
+			"individual": 6
+		},
+		"resPorAgua": {
+			"normal": 6,
+			"individual": 6
+		},
+		"resPorTerra": {
+			"normal": 6,
+			"individual": 6
+		},
+		"resPorAr": {
+			"normal": 6,
+			"individual": 6
+		},
+		"resPorNeutra": {
+			"normal": 6,
+			"individual": 6
+		},
+		"esqPa": {
+			"normal": 7,
+			"pa": 21,
+			"individual": 7
+		},
+		"esqPm": {
+			"normal": 7,
+			"pa": 21,
+			"individual": 7
+		},
+		"retPa": {
+			"normal": 7,
+			"pa": 21,
+			"individual": 7
+		},
+		"retPm": {
+			"normal": 7,
+			"pa": 21,
+			"individual": 7
+		},
+		"cri": {
+			"normal": 10,
+			"individual": 10
+		},
+		"ref": {
+			"normal": 10,
+			"individual": 10
+		},
+		"cur": {
+			"normal": 10,
+			"pa": 30,
+			"individual": 10
+		},
+		"danos": {
+			"normal": 20,
+			"individual": 20
+		},
+		"inv": {
+			"normal": 30,
+			"individual": 30
+		},
+		"al": {
+			"normal": 51,
+			"individual": 51
+		},
+		"gaPm": {
+			"normal": 90,
+			"individual": 90
+		},
+		"gaPa": {
+			"normal": 100,
+			"individual": 100
+		}
+	}
+}
