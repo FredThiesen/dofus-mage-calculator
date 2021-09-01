@@ -6,5 +6,10 @@ interface ValueProps {
 }
 
 export default function Display(props: ValueProps) {
-	return <DisplayContainer>{props.value}</DisplayContainer>
+	return (
+		<DisplayContainer>
+			{props.value > 0 && "+"}
+			{props.value}
+		</DisplayContainer>
+	)
 }

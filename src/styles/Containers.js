@@ -55,3 +55,10 @@ export const DisplayContainer = styled.div`
 	color: palevioletred;
 	font-size: 3rem;
 `
+export const Content = styled.div`
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	padding: 65px;
+	flex-wrap: wrap;
+`
