@@ -1,12 +1,29 @@
-import React from "react"
-import { Card, CardLeft, CardRight, TopBar } from "../../styles/Cards"
+import React, { useState } from "react"
+import {
+	Card,
+	CardLeft,
+	CardRight,
+	TopBar,
+	TopBarItem,
+} from "../../styles/Cards"
+interface Weights {
+	normal: number
+	pa?: number
+	ra?: number
+	active: boolean
+}
 
-export default function RuneCard() {
+export default function RuneCard(props: Weights) {
+	// const [active, setActive] = useState(false)
 	return (
 		<Card>
 			<CardLeft>{/* runes info */}</CardLeft>
 			<CardRight>
-				<TopBar></TopBar>
+				<TopBar>
+					<TopBarItem active={false}>Normal</TopBarItem>
+					<TopBarItem active={false}>Pa</TopBarItem>
+					<TopBarItem active={true}>Ra</TopBarItem>
+				</TopBar>
 				{/* normal, pa, ra,
                 runes png */}
 			</CardRight>

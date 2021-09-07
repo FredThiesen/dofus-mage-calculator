@@ -1,231 +1,247 @@
 {
-	"runes": {
-		"agi": {
+	"weights": {
+		"1-10": {
 			"normal": 1,
 			"pa": 3,
 			"ra": 10,
-			"individual": 1
+			"runes": {
+				"agi": {
+					"individual": 1
+				},
+				"int": {
+					"individual": 1
+				},
+				"for": {
+					"individual": 1
+				},
+				"sor": {
+					"individual": 1
+				},
+				"vit": {
+					"individual": 0.2
+				},
+				"ini": {
+					"individual": 0.1
+				}
+			}
 		},
-		"int": {
-			"normal": 1,
-			"pa": 3,
-			"ra": 10,
-			"individual": 1
-		},
-		"for": {
-			"normal": 1,
-			"pa": 3,
-			"ra": 10,
-			"individual": 1
-		},
-		"sor": {
-			"normal": 1,
-			"pa": 3,
-			"ra": 10,
-			"individual": 1
-		},
-		"vit": {
-			"normal": 1,
-			"pa": 3,
-			"ra": 10,
-			"individual": 0.2
-		},
-		"ini": {
-			"normal": 1,
-			"pa": 3,
-			"ra": 10,
-			"individual": 0.1
-		},
-		"resEmp": {
+		"2-6": {
 			"normal": 2,
 			"pa": 6,
-			"individual": 2
+			"runes": {
+				"resEmp": {
+					"individual": 2
+				},
+				"resCrit": {
+					"individual": 2
+				},
+				"resFogo": {
+					"individual": 2
+				},
+				"resAgua": {
+					"individual": 2
+				},
+				"resTerra": {
+					"individual": 2
+				},
+				"resAr": {
+					"individual": 2
+				},
+				"resNeutra": {
+					"individual": 2
+				}
+			}
 		},
-		"resCrit": {
-			"normal": 2,
-			"pa": 6,
-			"individual": 2
-		},
-		"resFogo": {
-			"normal": 2,
-			"pa": 2,
-			"individual": 2
-		},
-		"resAgua": {
-			"normal": 2,
-			"pa": 6,
-			"individual": 2
-		},
-		"resTerra": {
-			"normal": 2,
-			"pa": 6,
-			"individual": 2
-		},
-		"resAr": {
-			"normal": 2,
-			"pa": 6,
-			"individual": 2
-		},
-		"resNeutra": {
-			"normal": 2,
-			"pa": 6,
-			"individual": 2
-		},
-		"pot": {
+		"2-20": {
 			"normal": 2,
 			"pa": 6,
 			"ra": 20,
-			"individual": 2
+			"runes": {
+				"pot": {
+					"individual": 2
+				},
+				"armPo": {
+					"individual": 2
+				}
+			}
 		},
-		"armPo": {
-			"normal": 2,
-			"pa": 6,
-			"ra": 20,
-			"individual": 2
-		},
-		"pod": {
+		"2-25": {
 			"normal": 2.5,
 			"pa": 7.5,
 			"ra": 25,
-			"individual": 0.25
+			"runes": {
+				"pod": {
+					"individual": 0.25
+				}
+			}
 		},
-		"sab": {
+		"3-30": {
 			"normal": 3,
 			"pa": 9,
 			"ra": 30,
-			"individual": 3
+			"runes": {
+				"sab": {
+					"individual": 3
+				}
+			}
 		},
-		"prosp": {
+		"3-9": {
 			"normal": 3,
 			"pa": 9,
-			"individual": 3
+			"runes": {
+				"prosp": {
+					"individual": 3
+				}
+			}
 		},
-		"blo": {
+		"4-12": {
 			"normal": 4,
 			"pa": 12,
-			"individual": 4
+			"runes": {
+				"blo": {
+					"individual": 4
+				},
+				"fuga": {
+					"individual": 4
+				}
+			}
 		},
-		"fuga": {
-			"normal": 4,
-			"pa": 12,
-			"individual": 4
-		},
-		"daFogo": {
+		"5-15": {
 			"normal": 5,
 			"pa": 15,
-			"individual": 5
+			"runes": {
+				"daFogo": {
+					"individual": 5
+				},
+				"daAgua": {
+					"individual": 5
+				},
+				"daTerra": {
+					"individual": 5
+				},
+				"daAr": {
+					"individual": 5
+				},
+				"daNeutro": {
+					"individual": 5
+				},
+				"daEmp": {
+					"individual": 5
+				},
+				"daCri": {
+					"individual": 5
+				},
+				"daArm": {
+					"individual": 5
+				}
+			}
 		},
-		"daAgua": {
+
+		"5": {
 			"normal": 5,
-			"pa": 15,
-			"individual": 5
+			"runes": {
+				"caça": {
+					"individual": 5
+				}
+			}
 		},
-		"daTerra": {
-			"normal": 5,
-			"pa": 15,
-			"individual": 5
-		},
-		"daAr": {
-			"normal": 5,
-			"pa": 15,
-			"individual": 5
-		},
-		"daNeutro": {
-			"normal": 5,
-			"pa": 15,
-			"individual": 5
-		},
-		"daEmp": {
-			"normal": 5,
-			"pa": 15,
-			"individual": 5
-		},
-		"daCri": {
-			"normal": 5,
-			"pa": 15,
-			"individual": 5
-		},
-		"daArm": {
-			"normal": 5,
-			"pa": 15,
-			"individual": 5
-		},
-		"caça": {
-			"normal": 5,
-			"individual": 5
-		},
-		"resPorFogo": {
+		"6": {
 			"normal": 6,
-			"individual": 6
+			"runes": {
+				"resPorFogo": {
+					"individual": 6
+				},
+				"resPorAgua": {
+					"individual": 6
+				},
+				"resPorTerra": {
+					"individual": 6
+				},
+				"resPorAr": {
+					"individual": 6
+				},
+				"resPorNeutra": {
+					"individual": 6
+				}
+			}
 		},
-		"resPorAgua": {
-			"normal": 6,
-			"individual": 6
-		},
-		"resPorTerra": {
-			"normal": 6,
-			"individual": 6
-		},
-		"resPorAr": {
-			"normal": 6,
-			"individual": 6
-		},
-		"resPorNeutra": {
-			"normal": 6,
-			"individual": 6
-		},
-		"esqPa": {
+		"7-21": {
 			"normal": 7,
 			"pa": 21,
-			"individual": 7
+			"runes": {
+				"esqPa": {
+					"individual": 7
+				},
+				"esqPm": {
+					"individual": 7
+				},
+				"retPa": {
+					"individual": 7
+				},
+				"retPm": {
+					"individual": 7
+				}
+			}
 		},
-		"esqPm": {
-			"normal": 7,
-			"pa": 21,
-			"individual": 7
-		},
-		"retPa": {
-			"normal": 7,
-			"pa": 21,
-			"individual": 7
-		},
-		"retPm": {
-			"normal": 7,
-			"pa": 21,
-			"individual": 7
-		},
-		"cri": {
+		"10": {
 			"normal": 10,
-			"individual": 10
+			"runes": {
+				"cri": {
+					"individual": 10
+				},
+				"ref": {
+					"individual": 10
+				}
+			}
 		},
-		"ref": {
-			"normal": 10,
-			"individual": 10
-		},
-		"cur": {
+		"10-30": {
 			"normal": 10,
 			"pa": 30,
-			"individual": 10
+			"runes": {
+				"cur": {
+					"individual": 10
+				}
+			}
 		},
-		"danos": {
+		"20": {
 			"normal": 20,
-			"individual": 20
+			"runes": {
+				"danos": {
+					"individual": 20
+				}
+			}
 		},
-		"inv": {
+		"30": {
 			"normal": 30,
-			"individual": 30
+			"runes": {
+				"inv": {
+					"individual": 30
+				}
+			}
 		},
-		"al": {
+		"51": {
 			"normal": 51,
-			"individual": 51
+			"runes": {
+				"al": {
+					"individual": 51
+				}
+			}
 		},
-		"gaPm": {
+		"90": {
 			"normal": 90,
-			"individual": 90
+			"runes": {
+				"gaPm": {
+					"individual": 90
+				}
+			}
 		},
-		"gaPa": {
+		"100": {
 			"normal": 100,
-			"individual": 100
+			"runes": {
+				"gaPa": {
+					"individual": 100
+				}
+			}
 		}
 	}
 }

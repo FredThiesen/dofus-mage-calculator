@@ -34,6 +34,14 @@ export const TopBar = styled.div`
 	width: 100%;
 	border-bottom: 1px solid palevioletred;
 `
-export const TopBarItem = styled.div`
+export const TopBarItem = styled.button`
 	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 33.3333333333333%;
+	border: none;
+	height: 100%;
+	background: ${(props) => (props.active ? "palevioletred" : "#f0f0f0")};
+	color: ${(props) => (props.active ? "#f0f0f0" : "palevioletred")};
+	box-shadow: 0px -1px 7px palevioletred;
 `
