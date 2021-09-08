@@ -23,10 +23,12 @@ export const MainContainer = styled.div`
 	flex-direction: column;
 	width: 90%;
 	height: 100%;
+	overflow-y: auto;
 `
 export const Header = styled.div`
 	width: 100%;
 	height: 13%;
+	position: sticky;
 	background: palevioletred;
 	display: flex;
 	flex-direction: row;

@@ -10,7 +10,7 @@ interface Weights {
 	normal: number
 	pa?: number
 	ra?: number
-	active: boolean
+	active?: boolean
 }
 
 export default function RuneCard(props: Weights) {
@@ -21,8 +21,8 @@ export default function RuneCard(props: Weights) {
 			<CardRight>
 				<TopBar>
 					<TopBarItem active={false}>Normal</TopBarItem>
-					<TopBarItem active={false}>Pa</TopBarItem>
-					<TopBarItem active={true}>Ra</TopBarItem>
+					{props.pa && <TopBarItem active={false}>Pa</TopBarItem>}
+					{props.ra && <TopBarItem active={true}>Ra</TopBarItem>}
 				</TopBar>
 				{/* normal, pa, ra,
                 runes png */}
