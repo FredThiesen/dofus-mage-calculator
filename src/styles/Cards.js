@@ -34,7 +34,7 @@ export const TopBar = styled.div`
 	width: 100%;
 	border-bottom: 1px solid palevioletred;
 `
-export const TopBarItem = styled.button`
+export const TopBarButton = styled.button`
 	display: flex;
 	align-items: center;
 	justify-content: center;
