@@ -1,17 +1,20 @@
 import React, { useState } from "react"
-import { RuneButton } from "../../styles/Buttons"
+import { RuneButton } from "../../../styles/Buttons"
 import {
 	Card,
 	CardLeft,
 	CardRight,
+	Images,
 	TopBar,
 	TopBarButton,
-} from "../../styles/Cards"
+} from "../../../styles/Cards"
+import RunePngs from "./RunePngs"
 interface Weights {
 	normal: number
 	pa?: number
 	ra?: number
 	active?: boolean
+	type: string
 }
 
 export default function RuneCard(props: Weights) {
@@ -39,7 +42,7 @@ export default function RuneCard(props: Weights) {
 		setRaActive(true)
 		selectedValue = props.ra
 	}
-
+	const runeType = props.type
 	return (
 		<>
 			<Card>
@@ -69,8 +72,12 @@ export default function RuneCard(props: Weights) {
 							</TopBarButton>
 						)}
 					</TopBar>
-					{/* normal, pa, ra,
-                runes png */}
+					<Images>
+						<RunePngs runeType={runeType} />
+						{/* {images.elemental.map((rune) => {
+							return <img src={rune} height={50} width={50} />
+						})} */}
+					</Images>
 				</CardRight>
 			</Card>
 		</>

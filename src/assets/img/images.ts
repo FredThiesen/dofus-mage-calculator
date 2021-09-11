@@ -19,7 +19,7 @@ import armPo from "./arm_po.png"
 //2-25
 import pod from "./pod.png"
 //3-30
-import sab from "./sab.png"
+import sa from "./sa.png"
 //3-9
 import prosp from "./prosp.png"
 //4-12
@@ -67,7 +67,7 @@ const elemental = [agi, int, forca, sor, vi, ini]
 const resists = [resEmp, resCrit, resAgua, resAr, resFogo, resTerra, resNeutro]
 const pot = [po, armPo]
 const pods = [pod]
-const sabedoria = [sab]
+const sabedoria = [sa]
 const prospec = [prosp]
 const bloqueio = [blo, fuga]
 const danos = [daFogo, daAgua, daAr, daArm, daTerra, daNeutro, daEmp, daCri]
@@ -81,23 +81,24 @@ const invis = [inv]
 const alcance = [al]
 const pm = [gaPm]
 const pa = [gaPa]
-export {
-	elemental,
-	resists,
-	pot,
-	pods,
-	sabedoria,
-	prospec,
-	bloqueio,
-	danos,
-	hunt,
-	resistsPor,
-	esqRet,
-	criRef,
-	cura,
-	dano,
-	invis,
-	alcance,
-	pm,
-	pa,
-}
+const images = [
+	{ name: "elemental", runes: elemental },
+	{ name: "resists", runes: resists },
+	{ name: "pot", runes: pot },
+	{ name: "pods", runes: pods },
+	{ name: "sabedoria", runes: sabedoria },
+	{ name: "prospec", runes: prospec },
+	{ name: "bloqueio", runes: bloqueio },
+	{ name: "danos", runes: danos },
+	{ name: "hunt", runes: hunt },
+	{ name: "resistsPor", runes: resistsPor },
+	{ name: "esqRet", runes: esqRet },
+	{ name: "criRef", runes: criRef },
+	{ name: "cura", runes: cura },
+	{ name: "dano", runes: dano },
+	{ name: "invis", runes: invis },
+	{ name: "alcance", runes: alcance },
+	{ name: "pm", runes: pm },
+	{ name: "pa", runes: pa },
+]
+export default images
