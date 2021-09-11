@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 export const Body = styled.div`
 	width: 100vw;
-	height: 100vh;
+	height: 91%;
 	background: #f0f0f0;
 	display: flex;
 	flex-direction: row;
@@ -27,7 +27,7 @@ export const MainContainer = styled.div`
 `
 export const Header = styled.div`
 	width: 100%;
-	height: 13%;
+	height: 9%;
 	position: sticky;
 	background: palevioletred;
 	display: flex;

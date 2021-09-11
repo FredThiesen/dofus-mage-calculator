@@ -23,16 +23,18 @@ export default class Home extends Component {
 	render() {
 		function handleClick() {}
 		return (
-			<Body>
-				<LeftBar>left bar</LeftBar>
-				<MainContainer>
-					<Header>aaa</Header>
-					<Content>{renderCards(runes)}</Content>
-				</MainContainer>
-				<RightBar>
-					<Display value={24}></Display>
-				</RightBar>
-			</Body>
+			<>
+				<Header>aaa</Header>
+				<Body>
+					<LeftBar>left bar</LeftBar>
+					<MainContainer>
+						<Content>{renderCards(runes)}</Content>
+					</MainContainer>
+					<RightBar>
+						<Display value={24}></Display>
+					</RightBar>
+				</Body>
+			</>
 		)
 	}
 }
