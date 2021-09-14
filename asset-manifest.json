@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.js": "/dofus-mage-calculator/static/js/main.480b95e9.chunk.js",
+    "main.js.map": "/dofus-mage-calculator/static/js/main.480b95e9.chunk.js.map",
+    "runtime-main.js": "/dofus-mage-calculator/static/js/runtime-main.5f197ab1.js",
+    "runtime-main.js.map": "/dofus-mage-calculator/static/js/runtime-main.5f197ab1.js.map",
+    "static/js/2.d833c30f.chunk.js": "/dofus-mage-calculator/static/js/2.d833c30f.chunk.js",
+    "static/js/2.d833c30f.chunk.js.map": "/dofus-mage-calculator/static/js/2.d833c30f.chunk.js.map",
+    "index.html": "/dofus-mage-calculator/index.html",
+    "static/js/2.d833c30f.chunk.js.LICENSE.txt": "/dofus-mage-calculator/static/js/2.d833c30f.chunk.js.LICENSE.txt",
+    "static/media/al.685bac43.png": "/dofus-mage-calculator/static/media/al.685bac43.png",
+    "static/media/blo.cc0c13d2.png": "/dofus-mage-calculator/static/media/blo.cc0c13d2.png",
+    "static/media/da_agua.6e238f06.png": "/dofus-mage-calculator/static/media/da_agua.6e238f06.png",
+    "static/media/da_ar.7ed31309.png": "/dofus-mage-calculator/static/media/da_ar.7ed31309.png",
+    "static/media/da_cri.eafbe154.png": "/dofus-mage-calculator/static/media/da_cri.eafbe154.png",
+    "static/media/da_emp.cd71c73c.png": "/dofus-mage-calculator/static/media/da_emp.cd71c73c.png",
+    "static/media/da_fogo.6ad7f97b.png": "/dofus-mage-calculator/static/media/da_fogo.6ad7f97b.png",
+    "static/media/da_neutro.944e61b5.png": "/dofus-mage-calculator/static/media/da_neutro.944e61b5.png",
+    "static/media/da_terra.f910a000.png": "/dofus-mage-calculator/static/media/da_terra.f910a000.png",
+    "static/media/esq_pa.3d266e89.png": "/dofus-mage-calculator/static/media/esq_pa.3d266e89.png",
+    "static/media/esq_pm.616f63b1.png": "/dofus-mage-calculator/static/media/esq_pm.616f63b1.png",
+    "static/media/fuga.12d2dcfe.png": "/dofus-mage-calculator/static/media/fuga.12d2dcfe.png",
+    "static/media/po.b90b8eee.png": "/dofus-mage-calculator/static/media/po.b90b8eee.png",
+    "static/media/res_agua.9a62fe12.png": "/dofus-mage-calculator/static/media/res_agua.9a62fe12.png",
+    "static/media/res_ar.05b7b232.png": "/dofus-mage-calculator/static/media/res_ar.05b7b232.png",
+    "static/media/res_cri.07381b86.png": "/dofus-mage-calculator/static/media/res_cri.07381b86.png",
+    "static/media/res_emp.a52da30b.png": "/dofus-mage-calculator/static/media/res_emp.a52da30b.png",
+    "static/media/res_fogo.0776f611.png": "/dofus-mage-calculator/static/media/res_fogo.0776f611.png",
+    "static/media/res_neutro.86a64766.png": "/dofus-mage-calculator/static/media/res_neutro.86a64766.png",
+    "static/media/res_por_agua.aed29113.png": "/dofus-mage-calculator/static/media/res_por_agua.aed29113.png",
+    "static/media/res_por_ar.f94d4f61.png": "/dofus-mage-calculator/static/media/res_por_ar.f94d4f61.png",
+    "static/media/res_por_neutro.2f7b027d.png": "/dofus-mage-calculator/static/media/res_por_neutro.2f7b027d.png",
+    "static/media/res_por_terra.7ff23eb0.png": "/dofus-mage-calculator/static/media/res_por_terra.7ff23eb0.png",
+    "static/media/res_terra.1512ac7e.png": "/dofus-mage-calculator/static/media/res_terra.1512ac7e.png",
+    "static/media/ret_pa.d9ede563.png": "/dofus-mage-calculator/static/media/ret_pa.d9ede563.png",
+    "static/media/ret_pm.a591f339.png": "/dofus-mage-calculator/static/media/ret_pm.a591f339.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5f197ab1.js",
+    "static/js/2.d833c30f.chunk.js",
+    "static/js/main.480b95e9.chunk.js"
+  ]
+}
