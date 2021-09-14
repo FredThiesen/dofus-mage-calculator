@@ -45,6 +45,7 @@ export const TopBarButton = styled.button`
 	background: ${(props) => (props.active ? "palevioletred" : "#f0f0f0")};
 	color: ${(props) => (props.active ? "#f0f0f0" : "palevioletred")};
 	box-shadow: 0px -1px 7px palevioletred;
+	transition: 200ms;
 `
 export const Images = styled.div`
 	display: flex;
