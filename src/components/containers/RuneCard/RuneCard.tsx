@@ -12,6 +12,8 @@ import {
 	TopBarButton,
 } from "../../../styles/Cards"
 import RunePngs from "./RunePngs"
+import { useDispatch } from "react-redux"
+import { success, failure } from "../../../redux/actions/displayActions"
 interface Weights {
 	normal: number
 	pa?: number
@@ -22,29 +24,43 @@ interface Weights {
 }
 
 export default function RuneCard(props: Weights) {
+	const dispatch = useDispatch()
 	// const [active, setActive] = useState(false)
 	const [normalActive, setNormalActive] = useState(true)
 	const [paActive, setPaActive] = useState(false)
 	const [raActive, setRaActive] = useState(false)
-	let selectedValue: number | undefined
+	const [selectedValue, setSelectedValue] = useState<number>(props.normal)
 
+	const handleSuccess = () => {
+		dispatch({
+			type: "SUCCESS",
+			value: selectedValue,
+		})
+	}
+	const handleFailure = () => {
+		dispatch({
+			type: "FAILURE",
+			value: selectedValue,
+		})
+		console.log(selectedValue)
+	}
 	const handleNormalClick = () => {
 		setNormalActive(true)
 		setPaActive(false)
 		setRaActive(false)
-		selectedValue = props.normal
+		setSelectedValue(props.normal)
 	}
 	const handlePaClick = () => {
 		setNormalActive(false)
 		setPaActive(true)
 		setRaActive(false)
-		selectedValue = props.pa
+		props.pa && setSelectedValue(props.pa)
 	}
 	const handleRaClick = () => {
 		setNormalActive(false)
 		setPaActive(false)
 		setRaActive(true)
-		selectedValue = props.ra
+		props.ra && setSelectedValue(props.ra)
 	}
 	const runeType = props.type
 	return (
@@ -53,8 +69,15 @@ export default function RuneCard(props: Weights) {
 				<CardLeft>
 					<Description>{props.description}</Description>
 					<LeftBarButtonContainer>
-						<LeftBarButton success={true}>Sucesso</LeftBarButton>
-						<LeftBarButton>Falha</LeftBarButton>
+						<LeftBarButton
+							success={true}
+							onClick={() => handleSuccess()}
+						>
+							Sucesso
+						</LeftBarButton>
+						<LeftBarButton onClick={() => handleFailure()}>
+							Falha
+						</LeftBarButton>
 					</LeftBarButtonContainer>
 					{/* runes info */}
 				</CardLeft>

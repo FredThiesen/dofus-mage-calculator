@@ -39,7 +39,7 @@ export default class Home extends Component {
 						<Content>{renderCards(runes)}</Content>
 					</MainContainer>
 					<RightBar>
-						<Display value={24}></Display>
+						<Display />
 					</RightBar>
 				</Body>
 			</>
