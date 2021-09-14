@@ -4,7 +4,10 @@ import {
 	Card,
 	CardLeft,
 	CardRight,
+	Description,
 	Images,
+	LeftBarButton,
+	LeftBarButtonContainer,
 	TopBar,
 	TopBarButton,
 } from "../../../styles/Cards"
@@ -15,6 +18,7 @@ interface Weights {
 	ra?: number
 	active?: boolean
 	type: string
+	description: string
 }
 
 export default function RuneCard(props: Weights) {
@@ -46,7 +50,14 @@ export default function RuneCard(props: Weights) {
 	return (
 		<>
 			<Card>
-				<CardLeft>{/* runes info */}</CardLeft>
+				<CardLeft>
+					<Description>{props.description}</Description>
+					<LeftBarButtonContainer>
+						<LeftBarButton success={true}>Sucesso</LeftBarButton>
+						<LeftBarButton>Falha</LeftBarButton>
+					</LeftBarButtonContainer>
+					{/* runes info */}
+				</CardLeft>
 				<CardRight>
 					<TopBar>
 						<TopBarButton

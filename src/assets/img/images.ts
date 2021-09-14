@@ -55,7 +55,7 @@ import cur from "./cur.png"
 //20
 import da from "./da.png"
 //30
-import inv from "./inv.png"
+import invoc from "./inv.png"
 //51
 import al from "./al.png"
 //90
@@ -77,7 +77,7 @@ const esqRet = [esqPa, esqPm, retPa, retPm]
 const criRef = [cri, daRef]
 const cura = [cur]
 const dano = [da]
-const invis = [inv]
+const inv = [invoc]
 const alcance = [al]
 const pm = [gaPm]
 const pa = [gaPa]
@@ -96,7 +96,7 @@ const images = [
 	{ name: "criRef", runes: criRef },
 	{ name: "cura", runes: cura },
 	{ name: "dano", runes: dano },
-	{ name: "invis", runes: invis },
+	{ name: "inv", runes: inv },
 	{ name: "alcance", runes: alcance },
 	{ name: "pm", runes: pm },
 	{ name: "pa", runes: pa },

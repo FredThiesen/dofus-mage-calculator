@@ -19,6 +19,7 @@ export default function RunePngs(props: RuneTypes) {
 						height={imgSize}
 						width={imgSize}
 						key={index}
+						alt={""}
 					/>
 				)
 			})}

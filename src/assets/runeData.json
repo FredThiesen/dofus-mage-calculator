@@ -241,8 +241,8 @@
 		},
 		"30": {
 			"normal": 30,
-			"type": "invis",
-			"description": "Invis",
+			"type": "inv",
+			"description": "Invocação",
 			"runes": {
 				"inv": {
 					"individual": 30
