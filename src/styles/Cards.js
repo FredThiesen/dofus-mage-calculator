@@ -75,4 +75,8 @@ export const LeftBarButton = styled.button`
 	box-shadow: 0px -1px 7px palevioletred;
 	transition: 200ms;
 	width: 50%;
+
+	&:active {
+		transform: scale(1.1);
+	}
 `
