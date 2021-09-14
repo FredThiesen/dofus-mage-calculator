@@ -5,6 +5,7 @@
 			"pa": 3,
 			"ra": 10,
 			"type": "elemental",
+			"description": "Elementais, Vitalidade, Iniciativa",
 			"runes": {
 				"agi": {
 					"individual": 1
@@ -30,6 +31,7 @@
 			"normal": 2,
 			"pa": 6,
 			"type": "resists",
+			"description": "Resistências fixas",
 			"runes": {
 				"resEmp": {
 					"individual": 2
@@ -59,6 +61,7 @@
 			"pa": 6,
 			"ra": 20,
 			"type": "pot",
+			"description": "Potência e Potência de armadilhas",
 			"runes": {
 				"po": {
 					"individual": 2
@@ -73,6 +76,7 @@
 			"pa": 7.5,
 			"ra": 25,
 			"type": "pods",
+			"description": "Pods",
 			"runes": {
 				"pod": {
 					"individual": 0.25
@@ -84,6 +88,7 @@
 			"pa": 9,
 			"ra": 30,
 			"type": "sabedoria",
+			"description": "Sabedoria",
 			"runes": {
 				"sa": {
 					"individual": 3
@@ -94,6 +99,7 @@
 			"normal": 3,
 			"pa": 9,
 			"type": "prospec",
+			"description": "Prospecção",
 			"runes": {
 				"prosp": {
 					"individual": 3
@@ -104,6 +110,7 @@
 			"normal": 4,
 			"pa": 12,
 			"type": "bloqueio",
+			"description": "Bloqueio e Fuga",
 			"runes": {
 				"blo": {
 					"individual": 4
@@ -117,6 +124,7 @@
 			"normal": 5,
 			"pa": 15,
 			"type": "danos",
+			"description": "Danos elementais, Danos de empurrão, Danos de armadilha, Danos Críticos",
 			"runes": {
 				"daFogo": {
 					"individual": 5
@@ -148,6 +156,7 @@
 		"5": {
 			"normal": 5,
 			"type": "hunt",
+			"description": "Arma de Caça",
 			"runes": {
 				"caca": {
 					"individual": 5
@@ -157,6 +166,7 @@
 		"6": {
 			"normal": 6,
 			"type": "resistsPor",
+			"description": "Resistências por Porcentagem",
 			"runes": {
 				"resPorFogo": {
 					"individual": 6
@@ -179,6 +189,7 @@
 			"normal": 7,
 			"pa": 21,
 			"type": "esqRet",
+			"description": "Esquivas e Retiradas Pa Pm",
 			"runes": {
 				"esqPa": {
 					"individual": 7
@@ -197,6 +208,7 @@
 		"10": {
 			"normal": 10,
 			"type": "criRef",
+			"description": "Crítico, Refletir",
 			"runes": {
 				"cri": {
 					"individual": 10
@@ -210,6 +222,7 @@
 			"normal": 10,
 			"pa": 30,
 			"type": "cura",
+			"description": "Cura",
 			"runes": {
 				"cur": {
 					"individual": 10
@@ -219,6 +232,7 @@
 		"20": {
 			"normal": 20,
 			"type": "dano",
+			"description": "Danos",
 			"runes": {
 				"da": {
 					"individual": 20
@@ -228,6 +242,7 @@
 		"30": {
 			"normal": 30,
 			"type": "invis",
+			"description": "Invis",
 			"runes": {
 				"inv": {
 					"individual": 30
@@ -237,6 +252,7 @@
 		"51": {
 			"normal": 51,
 			"type": "alcance",
+			"description": "Alcance",
 			"runes": {
 				"al": {
 					"individual": 51
@@ -246,6 +262,7 @@
 		"90": {
 			"normal": 90,
 			"type": "pm",
+			"description": "Ga Pm",
 			"runes": {
 				"gaPm": {
 					"individual": 90
@@ -255,6 +272,7 @@
 		"100": {
 			"normal": 100,
 			"type": "pa",
+			"description": "Ga Pa",
 			"runes": {
 				"gaPa": {
 					"individual": 100
