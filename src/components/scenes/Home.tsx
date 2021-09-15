@@ -1,4 +1,6 @@
 import React, { Component } from "react"
+// import RuneCard from "../containers/RuneCard"
+import runeData from "../../assets/runeData.json"
 import {
 	Body,
 	Content,
@@ -7,12 +9,11 @@ import {
 	MainContainer,
 	RightBar,
 } from "../../styles/Containers"
-
-import Display from "../containers/Display"
-// import RuneCard from "../containers/RuneCard"
-import runeData from "../../assets/runeData.json"
-import RuneCard from "../containers/RuneCard/RuneCard"
+import ResetButton from "../buttons/ResetButton"
 import CustomInput from "../containers/CustomInput"
+import Display from "../containers/Display"
+import RuneCard from "../containers/RuneCard/RuneCard"
+
 function renderCards(runeData: any) {
 	return runeData.map((runeGroup: any, index: number) => {
 		const { normal, pa = null, ra = null, type, description } = runeGroup[1]
@@ -42,6 +43,7 @@ export default class Home extends Component {
 					<RightBar>
 						<CustomInput />
 						<Display />
+						<ResetButton />
 					</RightBar>
 				</Body>
 			</>

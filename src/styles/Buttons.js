@@ -34,3 +34,15 @@ export const SubmitValue = styled.button`
 	border-bottom-right-radius: 5px;
 	font-weight: bold;
 `
+export const ResetValue = styled.button`
+	border: 1.5px solid palevioletred;
+	background: transparent;
+	color: palevioletred;
+	outline: none;
+	width: 50%;
+	height: 35px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border-radius: 5px;
+	font-weight: bold;
+`
