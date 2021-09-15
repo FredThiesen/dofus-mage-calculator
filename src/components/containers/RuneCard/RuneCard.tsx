@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import { RuneButton } from "../../../styles/Buttons"
+import { useDispatch } from "react-redux"
 import {
 	Card,
 	CardLeft,
@@ -12,8 +12,6 @@ import {
 	TopBarButton,
 } from "../../../styles/Cards"
 import RunePngs from "./RunePngs"
-import { useDispatch } from "react-redux"
-import { success, failure } from "../../../redux/actions/displayActions"
 interface Weights {
 	normal: number
 	pa?: number

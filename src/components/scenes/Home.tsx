@@ -31,7 +31,6 @@ function renderCards(runeData: any) {
 const runes = Object.entries(runeData.weights)
 export default class Home extends Component {
 	render() {
-		function handleClick() {}
 		return (
 			<>
 				<Header>aaa</Header>
