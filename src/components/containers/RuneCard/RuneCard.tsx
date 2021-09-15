@@ -42,7 +42,6 @@ export default function RuneCard(props: Weights) {
 			type: "FAILURE",
 			value: selectedValue,
 		})
-		console.log(selectedValue)
 	}
 	const handleNormalClick = () => {
 		setNormalActive(true)

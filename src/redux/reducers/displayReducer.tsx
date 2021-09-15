@@ -5,8 +5,13 @@ export const displayReducer: any = (
 	switch (action.type) {
 		case "SUCCESS":
 			return state - action.value
+
 		case "FAILURE":
 			return state + action.value
+
+		case "CUSTOMVALUE":
+			return action.value
+
 		default:
 			return 0
 	}

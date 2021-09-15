@@ -21,3 +21,16 @@ export const RuneButton = styled.button`
 			color: white;
 		`};
 `
+export const SubmitValue = styled.button`
+	border: 1.5px solid palevioletred;
+	background: transparent;
+	color: palevioletred;
+	outline: none;
+	width: 20%;
+	height: 35px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	font-weight: bold;
+`

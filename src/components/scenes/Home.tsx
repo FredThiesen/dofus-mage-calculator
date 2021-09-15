@@ -12,6 +12,7 @@ import Display from "../containers/Display"
 // import RuneCard from "../containers/RuneCard"
 import runeData from "../../assets/runeData.json"
 import RuneCard from "../containers/RuneCard/RuneCard"
+import CustomInput from "../containers/CustomInput"
 function renderCards(runeData: any) {
 	return runeData.map((runeGroup: any, index: number) => {
 		const { normal, pa = null, ra = null, type, description } = runeGroup[1]
@@ -39,6 +40,7 @@ export default class Home extends Component {
 						<Content>{renderCards(runes)}</Content>
 					</MainContainer>
 					<RightBar>
+						<CustomInput />
 						<Display />
 					</RightBar>
 				</Body>

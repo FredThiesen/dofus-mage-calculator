@@ -40,7 +40,7 @@ export const Header = styled.div`
 export const RightBar = styled.div`
 	display: flex;
 	align-items: center;
-	justify-content: space-evenly;
+	justify-content: center;
 	flex-direction: column;
 	border: 1px solid palevioletred;
 	width: 25%;
@@ -63,4 +63,24 @@ export const Content = styled.div`
 	align-items: flex-start;
 	padding: 65px;
 	flex-wrap: wrap;
+`
+export const CustomValueInput = styled.input`
+	width: 30%;
+	height: 35px;
+	background: #666;
+	border: none;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	color: palevioletred;
+	font-size: 25px;
+	letter-spacing: 2px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+`
+export const FlexRow = styled.div`
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	width: 100%;
 `
