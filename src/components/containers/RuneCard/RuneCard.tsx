@@ -89,10 +89,10 @@ export default function RuneCard(props: Weights) {
 								success={true}
 								onClick={() => handleSuccess()}
 							>
-								Entrou
+								Entrou ( - )
 							</LeftBarButton>
 							<LeftBarButton onClick={() => handleDown()}>
-								Caiu
+								Caiu ( + )
 							</LeftBarButton>
 						</LeftBarButtonContainer>
 						{/* </LeftBarButtonWrapper> */}

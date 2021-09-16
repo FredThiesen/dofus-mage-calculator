@@ -9,6 +9,7 @@ import {
 	MainContainer,
 	RightBar,
 } from "../../styles/Containers"
+import { MainTitle } from "../../styles/Titles"
 import ResetButton from "../buttons/ResetButton"
 import CustomInput from "../containers/CustomInput"
 import Display from "../containers/Display"
@@ -35,9 +36,11 @@ export default class Home extends Component {
 	render() {
 		return (
 			<>
-				<Header>aaa</Header>
+				<Header>
+					<MainTitle>Dofus Mage Calculator</MainTitle>
+				</Header>
 				<Body>
-					<LeftBar>left bar</LeftBar>
+					<LeftBar>*wip*</LeftBar>
 					<MainContainer>
 						<Content>{renderCards(runes)}</Content>
 					</MainContainer>
