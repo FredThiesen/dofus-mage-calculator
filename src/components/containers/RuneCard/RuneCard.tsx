@@ -4,12 +4,15 @@ import {
 	Card,
 	CardLeft,
 	CardRight,
+	CardWrapper,
 	Description,
 	Images,
 	LeftBarButton,
 	LeftBarButtonContainer,
+	LeftBarButtonWrapper,
 	TopBar,
 	TopBarButton,
+	WeightsDisplay,
 } from "../../../styles/Cards"
 import RunePngs from "./RunePngs"
 interface Weights {
@@ -37,6 +40,12 @@ export default function RuneCard(props: Weights) {
 	}
 	const handleFailure = () => {
 		dispatch({
+			type: "SUCCESS",
+			value: selectedValue,
+		})
+	}
+	const handleDown = () => {
+		dispatch({
 			type: "FAILURE",
 			value: selectedValue,
 		})
@@ -62,55 +71,68 @@ export default function RuneCard(props: Weights) {
 	const runeType = props.type
 	return (
 		<>
-			<Card>
-				<CardLeft>
-					<Description>{props.description}</Description>
-					<LeftBarButtonContainer>
-						<LeftBarButton
-							success={true}
-							onClick={() => handleSuccess()}
-						>
-							Sucesso
-						</LeftBarButton>
-						<LeftBarButton onClick={() => handleFailure()}>
-							Falha
-						</LeftBarButton>
-					</LeftBarButtonContainer>
-					{/* runes info */}
-				</CardLeft>
-				<CardRight>
-					<TopBar>
-						<TopBarButton
-							active={normalActive}
-							onClick={() => handleNormalClick()}
-						>
-							Normal
-						</TopBarButton>
-						{props.pa && (
-							<TopBarButton
-								active={paActive}
-								onClick={() => handlePaClick()}
+			<CardWrapper>
+				<WeightsDisplay>
+					<div>{props.normal}</div>
+					<div>{props.pa ? props.pa : null}</div>
+					<div>{props.ra ? props.ra : null}</div>
+				</WeightsDisplay>
+				<Card>
+					<CardLeft>
+						<Description>{props.description}</Description>
+						{/* <LeftBarButtonWrapper> */}
+						{/* <LeftBarButton upper onClick={() => handleFailure()}>
+							Runa Falhou
+						</LeftBarButton> */}
+						<LeftBarButtonContainer>
+							<LeftBarButton
+								success={true}
+								onClick={() => handleSuccess()}
 							>
-								Pa
-							</TopBarButton>
-						)}
-						{props.ra && (
+								Entrou
+							</LeftBarButton>
+							<LeftBarButton onClick={() => handleDown()}>
+								Caiu
+							</LeftBarButton>
+						</LeftBarButtonContainer>
+						{/* </LeftBarButtonWrapper> */}
+						{/* runes info */}
+					</CardLeft>
+					<CardRight>
+						<TopBar>
 							<TopBarButton
-								active={raActive}
-								onClick={() => handleRaClick()}
+								active={normalActive}
+								onClick={() => handleNormalClick()}
 							>
-								Ra
+								Normal
 							</TopBarButton>
-						)}
-					</TopBar>
-					<Images>
-						<RunePngs runeType={runeType} />
-						{/* {images.elemental.map((rune) => {
+							{props.pa && (
+								<TopBarButton
+									active={paActive}
+									onClick={() => handlePaClick()}
+								>
+									Pa
+								</TopBarButton>
+							)}
+							{props.ra && (
+								<TopBarButton
+									topRight
+									active={raActive}
+									onClick={() => handleRaClick()}
+								>
+									Ra
+								</TopBarButton>
+							)}
+						</TopBar>
+						<Images>
+							<RunePngs runeType={runeType} />
+							{/* {images.elemental.map((rune) => {
 							return <img src={rune} height={50} width={50} />
 						})} */}
-					</Images>
-				</CardRight>
-			</Card>
+						</Images>
+					</CardRight>
+				</Card>
+			</CardWrapper>
 		</>
 	)
 }
