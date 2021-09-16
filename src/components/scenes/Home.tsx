@@ -12,7 +12,9 @@ import {
 import ResetButton from "../buttons/ResetButton"
 import CustomInput from "../containers/CustomInput"
 import Display from "../containers/Display"
+import RuneCalculator from "../containers/RuneCalculator"
 import RuneCard from "../containers/RuneCard/RuneCard"
+import RuneSelect from "../containers/Select/RuneSelect"
 
 function renderCards(runeData: any) {
 	return runeData.map((runeGroup: any, index: number) => {
@@ -43,6 +45,7 @@ export default class Home extends Component {
 						<CustomInput />
 						<Display />
 						<ResetButton />
+						<RuneCalculator />
 					</RightBar>
 				</Body>
 			</>

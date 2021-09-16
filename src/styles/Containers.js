@@ -1,4 +1,4 @@
-import styled from "styled-components"
+import styled, { css } from "styled-components"
 
 export const Body = styled.div`
 	width: 100vw;
@@ -83,4 +83,36 @@ export const FlexRow = styled.div`
 	justify-content: center;
 	flex-direction: row;
 	width: 100%;
+`
+export const RuneQuantityContainer = styled.div`
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: stretch;
+
+	width: 50%;
+	border: 2px solid palevioletred;
+	border-radius: 7px;
+	margin-top: 25px;
+	height: 15%;
+	background: #f0f0f0;
+`
+export const RuneQuantityItem = styled.div`
+	height: 50%;
+	font-size: 25px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	color: palevioletred;
+`
+export const RuneQuantityValue = styled.span`
+	${(props) =>
+		props.positive
+			? css`
+					color: green;
+			  `
+			: css`
+					color: #666;
+			  `}
+	font-size: 30px;
 `

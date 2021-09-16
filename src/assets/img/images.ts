@@ -1,3 +1,6 @@
+//paVi, raVi
+import paVi from "./pa_vi.png"
+import raVi from "./ra_vi.png"
 //1-10
 import agi from "./agi.png"
 import int from "./int.png"
@@ -102,3 +105,5 @@ const images = [
 	{ name: "pa", runes: pa },
 ]
 export default images
+
+export const vitalidade = [paVi, raVi]
