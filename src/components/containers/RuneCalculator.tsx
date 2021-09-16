@@ -23,10 +23,10 @@ function RuneCalculator() {
 
 	useEffect(() => {
 		setPaViQuantity(() => {
-			return Math.floor(value / 3)
+			return value > 0 ? Math.floor(value / 3) : 0
 		})
 		setRaViQuantity(() => {
-			return Math.floor(value / 10)
+			return value > 0 ? Math.floor(value / 10) : 0
 		})
 	}, [value])
 	const isPaPositive = paViQuantity > 0 ? true : false
