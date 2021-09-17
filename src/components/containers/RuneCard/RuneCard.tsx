@@ -14,6 +14,7 @@ import {
 	TopBarButton,
 	WeightsDisplay,
 } from "../../../styles/Cards"
+import { RuneWeightValue } from "../../../styles/Containers"
 import RunePngs from "./RunePngs"
 interface Weights {
 	normal: number
@@ -73,9 +74,13 @@ export default function RuneCard(props: Weights) {
 		<>
 			<CardWrapper>
 				<WeightsDisplay>
-					<div>{props.normal}</div>
-					<div>{props.pa ? props.pa : null}</div>
-					<div>{props.ra ? props.ra : null}</div>
+					<RuneWeightValue>{props.normal}</RuneWeightValue>
+					<RuneWeightValue>
+						{props.pa ? props.pa : null}
+					</RuneWeightValue>
+					<RuneWeightValue>
+						{props.ra ? props.ra : null}
+					</RuneWeightValue>
 				</WeightsDisplay>
 				<Card>
 					<CardLeft>

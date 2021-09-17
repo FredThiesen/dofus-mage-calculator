@@ -116,3 +116,9 @@ export const RuneQuantityValue = styled.span`
 			  `}
 	font-size: 30px;
 `
+export const RuneWeightValue = styled.div`
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 5px;
+`
