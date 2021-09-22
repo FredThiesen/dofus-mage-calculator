@@ -13,7 +13,7 @@ export default function CustomInput() {
 		setValue(Number(event.target.value))
 	}
 	const handleSubmit = () => {
-		value > 999 ? dispatch(customValue(999)) : dispatch(customValue(value))
+		dispatch(customValue(value))
 	}
 	return (
 		<>
