@@ -1,5 +1,6 @@
 import React, { useState } from "react"
 import { useDispatch } from "react-redux"
+import { failure, success } from "../../../redux/actions/displayActions"
 import {
 	Card,
 	CardLeft,
@@ -40,16 +41,10 @@ export default function RuneCard(props: Weights) {
 		})
 	}
 	const handleFailure = () => {
-		dispatch({
-			type: "SUCCESS",
-			value: selectedValue,
-		})
+		dispatch(success(selectedValue))
 	}
 	const handleDown = () => {
-		dispatch({
-			type: "FAILURE",
-			value: selectedValue,
-		})
+		dispatch(failure(selectedValue))
 	}
 	const handleNormalClick = () => {
 		setNormalActive(true)

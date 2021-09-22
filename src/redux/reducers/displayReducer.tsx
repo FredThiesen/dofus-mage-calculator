@@ -7,10 +7,10 @@ export const displayReducer: any = (
 			return state - action.value
 
 		case "FAILURE":
-			return state + action.value
+			return state + action.value > 999 ? 999 : state + action.value
 
 		case "CUSTOMVALUE":
-			return action.value
+			return action.value > 999 ? 999 : action.value
 
 		default:
 			return 0

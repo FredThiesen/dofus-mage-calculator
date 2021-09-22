@@ -2,7 +2,7 @@ import React, { useState } from "react"
 import { useDispatch } from "react-redux"
 import { SubmitValue } from "../../styles/Buttons"
 import { CustomValueInput, FlexRow } from "../../styles/Containers"
-
+import { customValue } from "../../redux/actions/displayActions"
 export default function CustomInput() {
 	const dispatch = useDispatch()
 	const [value, setValue] = useState<number>(0)
@@ -13,10 +13,7 @@ export default function CustomInput() {
 		setValue(Number(event.target.value))
 	}
 	const handleSubmit = () => {
-		dispatch({
-			type: "CUSTOMVALUE",
-			value: value,
-		})
+		value > 999 ? dispatch(customValue(999)) : dispatch(customValue(value))
 	}
 	return (
 		<>
@@ -25,7 +22,7 @@ export default function CustomInput() {
 					placeholder={0}
 					type={"number"}
 					onChange={handleChange}
-				></CustomValueInput>
+				/>
 				<SubmitValue onClick={handleSubmit}>Alterar!</SubmitValue>
 			</FlexRow>
 		</>
