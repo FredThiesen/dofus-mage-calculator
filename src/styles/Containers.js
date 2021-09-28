@@ -15,8 +15,6 @@ export const LeftBar = styled.div`
 	justify-content: center;
 	width: 10%;
 	height: 100;
-
-	border: 1px solid palevioletred;
 `
 export const MainContainer = styled.div`
 	display: flex;

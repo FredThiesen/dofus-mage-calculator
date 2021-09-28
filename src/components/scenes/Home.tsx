@@ -40,7 +40,7 @@ export default class Home extends Component {
 					<MainTitle>Dofus Mage Calculator</MainTitle>
 				</Header>
 				<Body>
-					<LeftBar>*wip*</LeftBar>
+					<LeftBar />
 					<MainContainer>
 						<Content>{renderCards(runes)}</Content>
 					</MainContainer>
